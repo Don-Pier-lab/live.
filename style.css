@@ -1,0 +1,63 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+ font-family: "Lexend", sans-serif;
+}
+
+:root{
+    --ye: rgb(255 237 0);
+}
+
+.header-custom{
+    background-image: url(/Media/bg-1.jpg);    
+}
+
+.btn-custom{
+    border: 1px solid var(--ye);
+    color: var(--ye);
+}
+
+.btn-custom:hover{
+    background-color: var(--ye);
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+.data{
+    font-weight: 700;
+}
+
+.section2-custom{
+    background-color: rgb(27, 21, 64);
+}
+
+.logo-aulab-futur-custom{
+    height: 250px;
+}
+
+.section4-custom{
+    background-image: url(Media/bg-3.jpg);
+}
+
+.marco{
+    height: 50vh;
+}
+.section3-custom{
+    min-height: 70vh;
+    background-image: url(/Media/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form-custom{
+    background-color: rgb(27, 21, 64);
+    padding: 70px 20px;
+}
+input{
+    background-color: rgb(27, 21, 64);
+    border: none;
+    border-bottom: 1px solid rgb(187, 38, 193);
+}
